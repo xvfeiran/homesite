@@ -4,6 +4,7 @@ import Hero from './components/sections/Hero';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
 import Blog from './components/sections/Blog';
+import Experience from './components/sections/Experience';
 import Education from './components/sections/Education';
 import { LanguageProvider } from './context/LanguageContext';
 
@@ -14,8 +15,9 @@ export default function App() {
         <Header />
         <Hero />
         <Projects />
-        <Skills />
         <Blog />
+        <Skills />
+        <Experience />
         <Education />
         <Footer />
       </main>

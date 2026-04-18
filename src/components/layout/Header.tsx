@@ -16,8 +16,9 @@ export default function Header() {
   const navItems = [
     { label: t('主页', 'Home'), href: '#' },
     { label: t('项目', 'Projects'), href: '#projects' },
-    { label: t('技能', 'Skills'), href: '#skills' },
     { label: t('博客', 'Blog'), href: '#blog' },
+    { label: t('技能', 'Skills'), href: '#skills' },
+    { label: t('经验', 'Experience'), href: '#experience' },
   ];
 
   useEffect(() => {
