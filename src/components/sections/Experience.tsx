@@ -7,13 +7,13 @@ export default function Experience() {
   const experiences = [
     {
       company: t('博世 (Bosch)', 'Bosch'),
-      role: t('软件工程师', 'Software Engineer'),
+      role: t('数字化转型 | 软件工程师', 'Digital Transformation | Software Engineer'),
       period: t('2024 - 至今', '2024 - Present'),
       description: t('专注于工业数字化转型与智能化系统架构。', 'Focused on industrial digital transformation and intelligent system architecture.'),
     },
     {
       company: t('中兴通讯 (ZTE)', 'ZTE'),
-      role: t('软件架构师', 'Software Architect'),
+      role: t('软件工程师', 'Software Engineer'),
       period: '2022 - 2024',
       description: t('主要负责出口合规系统全栈开发。', 'Mainly responsible for full-stack development of export compliance systems.'),
     },
