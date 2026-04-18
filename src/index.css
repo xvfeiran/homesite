@@ -25,10 +25,24 @@
 
 @layer components {
   .editorial-container {
-    @apply max-w-[1440px] mx-auto px-6 md:px-16 lg:px-24;
+    @apply max-w-[1440px] mx-auto px-6 md:px-16 lg:px-24 w-full;
   }
   
   .side-border {
-    @apply border-l border-line pl-10;
+    @apply border-l border-line pl-6 md:pl-10;
+  }
+
+  .text-huge {
+    @apply text-[16vw] sm:text-[14vw] md:text-[110px] leading-[0.85] font-black uppercase tracking-[-0.04em];
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }

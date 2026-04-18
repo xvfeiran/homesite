@@ -8,7 +8,7 @@ export default function Projects() {
   const projects = [
     {
       title: t('IronLogix', 'IronLogix'),
-      description: t('一款专注于力量举/力量提升的智能训练管理工具。不做大而全的健身记录，只服务于有基础的力量训练者，通过精简的数据采集 + 训练理论驱动 + AI辅助分析，帮助用户最快最安全地提升力量。', 'A smart training management tool focused on powerlifting. Eschewing all-in-one fitness tracking, it serves experienced strength trainees with streamlined data collection, theory-driven logic, and AI analysis to achieve the fastest and safest strength gains.'),
+      description: t('为追求极致的力量训练者设计，摒弃冗余功能，通过精简数据采集与AI分析，直指力量提升核心。', 'Designed for extreme athletes, eliminating redundancy via lean data and AI analysis to focus purely on strength gains.'),
       image: 'https://picsum.photos/seed/ironlogix/800/600',
       tags: ['Strength Training', 'AI-Analysis', 'Deliverables'],
       link: 'https://ironlogix.faelan.cc/',

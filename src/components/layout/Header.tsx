@@ -110,6 +110,17 @@ export default function Header() {
                   </a>
                 </li>
               ))}
+              <li>
+                <button 
+                  onClick={() => {
+                    copyEmail();
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="block text-sm font-bold uppercase tracking-widest cursor-pointer"
+                >
+                  {t('联系', 'Contact')}
+                </button>
+              </li>
             </ul>
           </motion.div>
         )}
