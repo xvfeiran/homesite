@@ -48,7 +48,9 @@ export default function Footer() {
         <div className="mt-24 pt-12 border-t border-line flex flex-col md:flex-row gap-6 justify-between items-center opacity-40 text-[10px] uppercase font-bold tracking-widest">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <p>© {currentYear} {t('徐斐然', 'Feiran Xu')}. {t('版权所有', 'All Rights Reserved.')}</p>
-            <p className="font-sans">浙ICP备XXXXXXXX号-X</p>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="font-sans hover:text-ink transition-colors cursor-pointer">
+              湘ICP备2026014578
+            </a>
           </div>
         </div>
       </div>
